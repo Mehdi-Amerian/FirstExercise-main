@@ -33,11 +33,12 @@ body {
 
 
 header {
-    display: flex;
+   display: flex;
    justify-content: space-between;
    align-items: center;
-   padding: 0 20px;
    background-color: #04AA6D;
+   margin: 0;
+   padding: 0;
 }
 
 nav ul {
@@ -45,11 +46,13 @@ nav ul {
     display: flex;
     justify-content: space-around;
     gap: 20px;
+    font-size: 20px;
+    font-family: Arial, cursive, sans-serif;
 }
 
 nav{
-  width: 80%;
-}
+    width: 100%;
+  }
 
 footer {
     color: #fff;
