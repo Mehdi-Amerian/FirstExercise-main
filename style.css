@@ -21,3 +21,14 @@ header {
    padding: 0 20px;
    background-color: #04AA6D;
 }
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+nav{
+  width: 80%;
+}
