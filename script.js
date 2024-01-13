@@ -1,6 +1,11 @@
-document.getElementById("button").addEventListener("click", function() {
-    alert("Button clicked!");
-});
+//Add event listener to all elements with the class "button"
+var buttons = document.getElementsByClassName("button");
+
+for (var i = 0; i<buttons.length; i++){
+    buttons[i].addEventListener("click", function(){
+        alert("Button clicked!");
+    });
+}
 
 //Get the current year
 function getCurrentYear() {
