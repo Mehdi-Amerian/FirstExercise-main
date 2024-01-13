@@ -7,6 +7,14 @@ body {
     margin-top: 50px;
 }
 
+#content.toggled {
+    width: 100%;
+    padding: 25px;
+    background-color: #04AA6D;
+    color: white;
+    font-size: 25px;
+}
+
 .button {
     margin-top: 20px;
     padding: 10px 20px;

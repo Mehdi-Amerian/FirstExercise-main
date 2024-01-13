@@ -24,3 +24,9 @@ function setDynamicYear() {
 window.onload = function () {
     setDynamicYear();
 };
+
+//Toggle the description text
+function textToggle(){
+    var element = document.getElementById("content");
+    element.classList.toggle("toggled");
+}
